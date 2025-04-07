@@ -919,143 +919,131 @@ export const calendarEvents = [
   {
     title: 'Math',
     allDay: false,
-    start: new Date(), // Current date and time
-    end: new Date(new Date().setHours(new Date().getHours() + 1)),
+    start: new Date(2025, 3, 7, 8, 0),
+    end: new Date(2025, 3, 7, 8, 45),
   },
   {
     title: 'English',
     allDay: false,
-    start: new Date(2025, 3, 6, 9, 0),
-    end: new Date(2025, 3, 6, 9, 55),
+    start: new Date(2025, 3, 7, 9, 0),
+    end: new Date(2025, 3, 7, 9, 45),
   },
   {
     title: 'Biology',
     allDay: false,
-    start: new Date(2025, 3, 6, 11, 0),
-    end: new Date(2025, 3, 6, 11, 55),
+    start: new Date(2025, 3, 7, 10, 0),
+    end: new Date(2025, 3, 7, 10, 45),
   },
   {
     title: 'Physics',
     allDay: false,
-    start: new Date(2025, 3, 6, 8, 0),
-    end: new Date(2025, 3, 6, 8, 45),
+    start: new Date(2025, 3, 7, 11, 0),
+    end: new Date(2025, 3, 7, 11, 45),
   },
   {
     title: 'Chemistry',
     allDay: false,
-    start: new Date(2025, 3, 6, 10, 0),
-    end: new Date(2025, 3, 6, 10, 45),
+    start: new Date(2025, 3, 7, 13, 0),
+    end: new Date(2025, 3, 7, 13, 45),
   },
-  // {
-  //   title: 'History',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'English',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'Biology',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'Physics',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
+  {
+    title: 'History',
+    allDay: false,
+    start: new Date(2025, 3, 7, 14, 0),
+    end: new Date(2025, 3, 7, 14, 45),
+  },
+  {
+    title: 'English',
+    allDay: false,
+    start: new Date(2025, 3, 8, 9, 0),
+    end: new Date(2025, 3, 7, 8, 45),
+  },
+  {
+    title: 'Biology',
+    allDay: false,
+    start: new Date(2025, 3, 8, 10, 0),
+    end: new Date(2025, 3, 8, 10, 45),
+  },
+  {
+    title: 'Physics',
+    allDay: false,
+    start: new Date(2025, 3, 8, 11, 0),
+    end: new Date(2025, 3, 8, 11, 45),
+  },
 
-  // {
-  //   title: 'History',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'Math',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'Biology',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
+  {
+    title: 'History',
+    allDay: false,
+    start: new Date(2025, 3, 8, 14, 0),
+    end: new Date(2025, 3, 8, 14, 45),
+  },
+  {
+    title: 'Math',
+    allDay: false,
+    start: new Date(2025, 3, 9, 8, 0),
+    end: new Date(2025, 3, 7, 9, 45),
+  },
+  {
+    title: 'Biology',
+    allDay: false,
+    start: new Date(2025, 3, 9, 10, 0),
+    end: new Date(2025, 3, 9, 10, 45),
+  },
 
-  // {
-  //   title: 'Chemistry',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'History',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'English',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'Biology',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'Physics',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
+  {
+    title: 'Chemistry',
+    allDay: false,
+    start: new Date(2025, 3, 9, 13, 0),
+    end: new Date(2025, 3, 9, 13, 45),
+  },
+  {
+    title: 'History',
+    allDay: false,
+    start: new Date(2025, 3, 9, 14, 0),
+    end: new Date(2025, 3, 9, 14, 45),
+  },
+  {
+    title: 'English',
+    allDay: false,
+    start: new Date(2025, 3, 10, 9, 0),
+    end: new Date(2025, 3, 10, 9, 45),
+  },
+  {
+    title: 'Biology',
+    allDay: false,
+    start: new Date(2025, 3, 10, 10, 0),
+    end: new Date(2025, 3, 10, 10, 45),
+  },
+  {
+    title: 'Physics',
+    allDay: false,
+    start: new Date(2025, 3, 10, 11, 0),
+    end: new Date(2025, 3, 10, 11, 45),
+  },
 
-  // {
-  //   title: 'History',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'Math',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'English',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
+  {
+    title: 'History',
+    allDay: false,
+    start: new Date(2025, 3, 10, 14, 0),
+    end: new Date(2025, 3, 10, 14, 45),
+  },
+  {
+    title: 'Math',
+    allDay: false,
+    start: new Date(2025, 3, 11, 8, 0),
+    end: new Date(2025, 3, 11, 8, 45),
+  },
+  {
+    title: 'English',
+    allDay: false,
+    start: new Date(2025, 3, 1, 9, 0),
+    end: new Date(2025, 3, 11, 9, 45),
+  },
 
-  // {
-  //   title: 'Physics',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'Chemistry',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
-  // {
-  //   title: 'History',
-  //   allDay: false,
-  //   start: new Date(), // Current date and time
-  //   end: new Date(new Date().setHours(new Date().getHours() + 1)),
-  // },
+  {
+    title: 'Physics',
+    allDay: false,
+    start: new Date(2025, 3, 11, 11, 0),
+    end: new Date(2025, 3, 11, 11, 45),
+  },
 ];
