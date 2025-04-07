@@ -31,7 +31,7 @@ const data = [
 // Properly define the functional component with React.FC type
 const CountChart: React.FC = () => {
   return (
-    <div className="bg-gray-200 rounded-xl w-full h-full p-4 ">
+    <div className="bg-white rounded-xl w-full h-full p-4 ">
       {/* TITLE */}
       <div className="flex justify-between items-center">
         <h1 className="text-lg font-semibold">Student</h1>
