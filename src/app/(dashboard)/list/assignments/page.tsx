@@ -41,7 +41,7 @@ const columns = [
   },
 ];
 
-const ExamListPage = () => {
+const AssignmentListPage = () => {
   const renderRow = (item: Assignment) => (
     <tr
       key={item.id}
@@ -102,4 +102,4 @@ const ExamListPage = () => {
   );
 };
 
-export default ExamListPage;
+export default AssignmentListPage;
